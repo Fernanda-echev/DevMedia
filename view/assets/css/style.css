@@ -1,0 +1,77 @@
+/* Importação de arquivos externos */
+@import url(external.css);
+@import url(reset.css);
+@import url(components/button.css);
+@import url(components/content-adm.css);
+@import url(components/footer.css);
+@import url(components/form.css);
+@import url(components/navbar-site.css);
+@import url(components/navbar.css);
+@import url(components/sidebar.css);
+@import url(components/table.css);
+
+/* Variáveis para reúso no projeto */
+:root {
+    --color-primary: #6c5ce7;;
+    --color-primary-darker: #9a55d3;
+    --color-secondary: #a29bfe;;
+    --color-white: #FFFFFF;
+    --color-danger: #DC3545;
+    --page-background-color: var(--color-white);
+    --navbar-background-color: var(--color-primary-darker);
+    --text-primary: #2d3436;;
+    --text-secondary: #6A5ACD;
+    --text-white: var(--color-white);
+    
+
+
+
+    --border-rounded: 8px;
+    
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-bold: 700;
+}
+
+/* Configurações gerais */
+body {
+    font-family: "Work Sans", serif;
+    font-size: 18px;
+    color: var(--text-secondary);
+    background-color: var(--page-background-color);
+}
+
+a {
+    color: var(--color-primary-darken);
+    text-decoration: none;
+}
+
+/* Configuração do layout na área administrativa */
+.container-adm {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 68px 1fr 22px;
+    background-color: var(--page-background-color);
+}
+
+@media (max-width: 768px) {
+    .container-adm {
+        grid-template-columns: 1fr;
+        grid-template-rows: 48px 1fr 16px;
+    }
+}
+
+/* Container usado para montar as páginas internas */
+.container {
+    background-color: var(--text-white);
+    border-radius: var(--border-rounded);
+    padding: 1.5rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .5rem;
+    padding-bottom: 1.5rem;
+}
