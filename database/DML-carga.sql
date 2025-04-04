@@ -62,4 +62,29 @@ INSERT INTO artigo (titulo, conteudo, id_cat) VALUES
 
 
 
-
+INSERT INTO usuario (nome, email, data_nasc, cpf, telefone) VALUES
+('Ana Souza', 'ana.souza@email.com', '1990-05-12', '12345678901', '67999990001'),
+('Carlos Silva', 'carlos.silva@email.com', '1985-07-25', '23456789012', '67999990002'),
+('Mariana Lima', 'mariana.lima@email.com', '1993-09-14', '34567890123', '67999990003'),
+('Fernando Alves', 'fernando.alves@email.com', '1992-11-30', '45678901234', '67999990004'),
+('Juliana Castro', 'juliana.castro@email.com', '1995-06-22', '56789012345', '67999990005'),
+('Pedro Henrique', 'pedro.henrique@email.com', '1988-08-19', '67890123456', '67999990006'),
+('Laura Mendes', 'laura.mendes@email.com', '1991-12-05', '78901234567', '67999990007'),
+('Thiago Rocha', 'thiago.rocha@email.com', '1986-04-28', '89012345678', '67999990008'),
+('Camila Nunes', 'camila.nunes@email.com', '1994-03-15', '90123456789', '67999990009'),
+('Gabriel Costa', 'gabriel.costa@email.com', '1989-10-07', '01234567890', '67999990010'),
+('Beatriz Ferreira', 'beatriz.ferreira@email.com', '1996-02-21', '12345098765', '67999990011'),
+('Lucas Martins', 'lucas.martins@email.com', '1990-09-18', '23456098765', '67999990012'),
+('Vanessa Oliveira', 'vanessa.oliveira@email.com', '1993-11-08', '34567098765', '67999990013'),
+('Rafael Borges', 'rafael.borges@email.com', '1987-05-14', '45678098765', '67999990014'),
+('Patrícia Almeida', 'patricia.almeida@email.com', '1992-07-27', '56789098765', '67999990015'),
+('Rodrigo Teixeira', 'rodrigo.teixeira@email.com', '1994-01-05', '67890098765', '67999990016'),
+('Carolina Santos', 'carolina.santos@email.com', '1989-06-12', '78901098765', '67999990017'),
+('Diego Moreira', 'diego.moreira@email.com', '1995-08-22', '89012098765', '67999990018'),
+('Larissa Pinto', 'larissa.pinto@email.com', '1991-04-30', '90123098765', '67999990019'),
+('Felipe Rezende', 'felipe.rezende@email.com', '1986-12-07', '01234098765', '67999990020'),
+('Tatiane Barbosa', 'tatiane.barbosa@email.com', '1990-02-25', '12345087654', '67999990021'),
+('André Luiz', 'andre.luiz@email.com', '1985-11-17', '23456087654', '67999990022'),
+('Natália Cardoso', 'natalia.cardoso@email.com', '1993-03-09', '34567087654', '67999990023'),
+('Eduardo Lima', 'eduardo.lima@email.com', '1988-07-20', '45678087654', '67999990024'),
+('Sabrina Rocha', 'sabrina.rocha@email.com', '1994-05-18', '56789087654', '67999990025');
